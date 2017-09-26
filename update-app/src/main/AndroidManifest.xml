@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.vector.update_app">
+
+    <application>
+        <service android:name=".service.DownloadService"/>
+        <activity
+            android:name=".DialogActivity"
+            android:configChanges="keyboardHidden|orientation|locale|screenSize"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dialog"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+项目点滴
+采用mvp(mosby3)+rxjava2+retrofit2+okhttp3+eventbus+butterknife+dagger(使用较少)
+                +hawk(数据存储)
+                +zxing(二维码扫描)
+                +网络改变观察者(监听网络状态变化)
+                +自定义5.0以上计算器，使其兼容4.4版本
+                +autolayout(适配不同分辨率布局)
+一、项目框架搭建
+

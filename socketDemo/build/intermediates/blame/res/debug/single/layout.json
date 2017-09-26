@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\socketDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_socket.xml",
+        "source": "F:\\asSpace\\SocketConnection\\socketDemo\\src\\main\\res\\layout\\activity_socket.xml"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\socketDemo\\build\\intermediates\\res\\merged\\debug\\layout\\active.xml",
+        "source": "F:\\asSpace\\SocketConnection\\socketDemo\\src\\main\\res\\layout\\active.xml"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\socketDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\asSpace\\SocketConnection\\socketDemo\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

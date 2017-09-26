@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\build\\intermediates\\res\\merged\\debug\\drawable\\fb_logo.png",
+        "source": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\src\\main\\res\\drawable\\fb_logo.png"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "F:\\asSpace\\SocketConnection\\shimmer-android-example\\src\\main\\res\\drawable\\background.jpg"
+    }
+]

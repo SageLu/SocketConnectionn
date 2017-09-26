@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preset_button_background">@android:color/transparent</color>
+    <color name="preset_button_background_selected">#66000000</color>
+    <declare-styleable name="ShimmerFrameLayout"><attr format="boolean" name="auto_start"/><attr format="float" name="base_alpha"/><attr format="integer" name="duration"/><attr format="integer" name="repeat_count"/><attr format="integer" name="repeat_delay"/><attr format="enum" name="repeat_mode">
+      <enum name="restart" value="1"/>
+      <enum name="reverse" value="2"/>
+    </attr><attr format="enum" name="angle">
+      <enum name="cw_0" value="0"/>
+      <enum name="cw_90" value="90"/>
+      <enum name="cw_180" value="180"/>
+      <enum name="cw_270" value="270"/>
+    </attr><attr format="float" name="dropoff"/><attr format="dimension" name="fixed_width"/><attr format="dimension" name="fixed_height"/><attr format="float" name="intensity"/><attr format="float" name="relative_width"/><attr format="float" name="relative_height"/><attr format="enum" name="shape">
+      <enum name="linear" value="0"/>
+      <enum name="radial" value="1"/>
+    </attr><attr format="float" name="tilt"/></declare-styleable>
+    <string name="app_name">Shimmer</string>
+    <style name="thin.white" parent="@android:style/TextAppearance">
+    <item name="android:fontFamily">sans-serif-thin</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+    <style name="thin.white.large" parent="thin.white">
+    <item name="android:textSize">24sp</item>
+  </style>
+    <style name="thin.white.small" parent="thin.white">
+    <item name="android:textSize">16sp</item>
+  </style>
+    <style name="thin.white.small.button" parent="thin.white.small">
+    <item name="android:layout_width">48dp</item>
+    <item name="android:layout_height">48dp</item>
+    <item name="android:background">@android:color/transparent</item>
+  </style>
+</resources>

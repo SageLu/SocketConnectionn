@@ -1,0 +1,69 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath 'com.novoda:bintray-release:0.4.0'
+
+        classpath 'com.didi.virtualapk:gradle:0.9.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+
+
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1'
+        classpath "com.tencent.bugly:tinker-support:latest.release"
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.7.0'
+
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.bintray.com/jenly/maven' }
+    }
+    tasks.withType(Javadoc) {
+        options {
+            encoding "UTF-8"
+            charSet 'UTF-8'
+            links "http://docs.oracle.com/javase/7/docs/api"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+def supportVersion = "25.3.1"
+project.ext {
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+
+    applicationId = "com.hitomi.transferimage"
+    minSdkVersion = 14
+    targetSdkVersion = 25
+    versionCode = 1
+    versionName = "1.0.0"
+
+    abortOnLintError = false
+    checkLintRelease = false
+    useJack = false
+    abortOnLintError = false
+    javaVersion = JavaVersion.VERSION_1_8
+
+    // 第三方库版本管理
+    libSupportV4 = "com.android.support:support-v4:${supportVersion}"
+    libSupportV7 = "com.android.support:appcompat-v7:${supportVersion}"
+    libSupportAppcompat = "com.android.support:appcompat-v7:${supportVersion}"
+    libSupportDesign = "com.android.support:design:${supportVersion}"
+    libSupportRecyclerview = "com.android.support:recyclerview-v7:${supportVersion}"
+}

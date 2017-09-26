@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_view_cache.xml",
+        "source": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\src\\main\\res\\layout\\layout_view_cache.xml"
+    },
+    {
+        "merged": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\build\\intermediates\\res\\merged\\debug\\layout\\media_controller.xml",
+        "source": "F:\\asSpace\\SocketConnection\\DanmakuFlameMaster-master\\src\\main\\res\\layout\\media_controller.xml"
+    }
+]

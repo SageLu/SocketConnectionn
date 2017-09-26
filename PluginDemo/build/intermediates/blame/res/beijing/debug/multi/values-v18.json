@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\asSpace\\SocketConnection\\PluginDemo\\build\\intermediates\\incremental\\mergeBeijingDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\64a94229d5f803267031d4572645fdec267e172f\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 48,
+                        "endOffset": 335
+                    }
+                }
+            }
+        ]
+    }
+]
